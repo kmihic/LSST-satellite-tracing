@@ -1,0 +1,13 @@
+
+1) Install anaconda python following instructions for your OS
+2) Setup a new environement
+  conda create -n sat-traces -c conda-forge python=3.9
+  conda activate sat-traces
+3) Install interactive shell and notebook (if needed)
+conda install ipython  
+or
+conda install jupyter
+(note: ipython is jupyter's kernel, so when installing the later there is no
+ need to install the former -- it will be done automatically)  
+4) Install rewuired packages
+conda install -c conda-forge --file=required_pck.txt
